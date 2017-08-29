@@ -15,9 +15,9 @@ build:
     - script:
       name: install JDK 9 for alpine linux
       code: |
-        wget -q http://download.java.net/java/jdk9-alpine/archive/177/binaries/jdk-9-ea+177_linux-x64-musl_bin.tar.gz
-        tar -x -f jdk-9-ea+177_linux-x64-musl_bin.tar.gz -C $WERCKER_OUTPUT_DIR/opt
-        rm jdk-9-ea+177_linux-x64-musl_bin.tar.gz
+        wget -q http://download.java.net/java/jdk9-alpine/archive/181/binaries/jdk-9-ea+181_linux-x64-musl_bin.tar.gz
+        tar -x -f jdk-9-ea+181_linux-x64-musl_bin.tar.gz -C $WERCKER_OUTPUT_DIR/opt
+        rm jdk-9-ea+181_linux-x64-musl_bin.tar.gz
 
     - script:
       name: install maven
